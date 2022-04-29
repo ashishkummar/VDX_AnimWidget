@@ -344,7 +344,7 @@ const motionWidget = {
 		motionWidget.arrVal.push({item:null, animating:null, index:0, inview:false, title:"anim_1",anims:[{effect:"fadeInUp_1", duration:500, delay:100, distance:100}], loop:1})
 		motionWidget.arrVal.push({item:null, animating:null, index:0, inview:false, title:"anim_2",anims:[{effect:"fadeInUp_2", duration:500, delay:100, distance:100}], loop:1})
 		
-		motionWidget.arrValCls = [...motionWidget.arrVal];
+		motionWidget.arrValCls = [...motionWidget.arrVal // missed bracket
 		motionWidget.addEl();
 		EU.EventManager.add("VDX_Mainunit_Shown", function() {
 			motionWidget.intId = setInterval(motionWidget.ctrlVAnim, 50);

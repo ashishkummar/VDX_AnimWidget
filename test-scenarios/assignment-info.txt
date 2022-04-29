@@ -1,0 +1,14 @@
+Ashish:
+Show error message when incorrect Javas Script file uploaded
+
+
+1. if animation related code is not present in the java script file, show a message "Animation code is not present in the Java Script file uploaded".
+
+
+2. if java script file does not have code related to animation and component, show a message "Invalid Java Script file"
+
+
+3. if there is a syntax error(related to {} globally and [] only in animation code) in the uploaded designer-config.js file, show a message "syntax error! please check java-script file uploaded"
+
+Please do not use any third-party library to complete the assignment. once you complete the task upload your code on git and share the URL.
+
